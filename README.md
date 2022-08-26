@@ -49,11 +49,16 @@
 
 链接成功后，无法正常科学上网？
 1、确认代理模式设置正确，可选择「全局模式」
+
 2、确认是否使用管理员模式运行
+
 3、尝试关闭360等安全软件，可能会拦截代理数据
+
 4、检查是否安装过其他代理工具或者浏览器插件
+
 如您使用了其他代理工具，或者「Unblock Youku」这类和代理有关的浏览器插件，请您先关闭，否则会影响翻墙。您也可以换其他浏览器尝试一下，看是否能够翻墙。
 5、尝试重置IE浏览器设置
+
 Win7系统 如何重置IE浏览器
 https://jingyan.baidu.com/article/e9fb46e12f75a37521f76687.html
 win10系统 如何重置IE浏览器
@@ -61,23 +66,28 @@ https://jingyan.baidu.com/article/0bc808fc04cc6d1bd485b9b0.html
 Win10系统 如何找到IE浏览器
 https://jingyan.baidu.com/article/7c6fb428de2a9680642c90cc.html
 6、使用360断网急救箱重置网络设置
+
 7、修改本地连接、宽带连接名称为英文
 
 出现报错：注册表写入失败
 方案1：下载并运行此脚本，可自动修复此问题：
 点击下载脚本：winClientProtocol.zip
+
 方案2：手动修改注册表，添加如下内容
 [HKEY_CLASSES_ROOT\westworldss]
 @="URL:westworldss Protocol"
 "URL Protocol"=""
 应用程序出现报错、发生闪退、无法操作
 您的电脑缺少相关的运行库和系统组件，按以下步骤依次尝试，即可解决
+
 第一步：安装 VC运行库（64位），并重启系统生效
 下载地址：
 https://www.microsoft.com/zh-CN/download/details.aspx?id=48145
+
 第二步：安装 完整VC运行库
 下载地址：
 http://www.pc6.com/softview/SoftView_104246.html
+
 第三步：安装 .Net Farmework
 下载地址
 https://support.microsoft.com/zh-cn/help/3151800/the-net-framework-4-6-2-offline-installer-for-windows
